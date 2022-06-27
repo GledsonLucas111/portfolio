@@ -13,7 +13,7 @@ import {
   textStyle,
   TypographyStyle,
 } from "./style";
-import { Box, Button } from "@mui/material";
+import { Button } from "@mui/material";
 import { technologies } from "constants/technologies";
 import { Technologies } from "types/techType";
 import { background } from "constants/colors";
@@ -52,11 +52,11 @@ export default function Home() {
               Apaixonado por tecnologia e programação.
             </TypographyStyle>
             <TypographyStyle variant="body2" margin="50px 0px 20px">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu.
+              Desenvolvedor web full-stack, formado pelo bootcamp Labenu. Um
+              sonhador em busca do aperfeiçoamento diário. Entusiasta da
+              tecnologia. Quero estar constantemente aprimorando meus
+              conhecimentos, e colocando em pratica tudo que já sei para tentar
+              simplificar a vida das pessoas.
             </TypographyStyle>
             {technologies.map((technologie: Technologies) => {
               return <Button>{technologie.name}</Button>;
